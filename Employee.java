@@ -1,7 +1,7 @@
 import java.sql.*;
 import java.util.ArrayList;
 
-// -------------- DATABASE CONNECTION CLASS ---------------
+//  Database Connection CLASS ---------------
 class DatabaseManager {
     private static final String URL = "jdbc:mysql://localhost:3306/payroll";
     private static final String USER = "root"; // Change if needed
@@ -12,7 +12,7 @@ class DatabaseManager {
     }
 }
 
-// -------------- ABSTRACT EMPLOYEE CLASS ---------------
+// ------ ABSTRACT EMPLOYEE CLASS ---------------
 abstract class Employee {
     private String name;
     private int id;
