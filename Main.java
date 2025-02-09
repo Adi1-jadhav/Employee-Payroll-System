@@ -156,7 +156,7 @@ class PayrollSystem {
     }
 
     // Remove Employee from Database
-    /*public void removeEmployeeFromDatabase(int id) {
+    public void removeEmployeeFromDatabase(int id) {
         String sql = "DELETE FROM Employees WHERE id = ?";
 
         try (Connection conn = DatabaseManager.connect();
@@ -195,20 +195,20 @@ public class Main {
         payrollSystem.addEmployeeToDatabase(emp2);
 
         // Display Employees from ArrayList
-        System.out.println("Initial Employee Details from ArrayList:");
+        System.out.println("Initial Employee Details from ArrayList ");
         payrollSystem.displayEmployees();
 
         // Fetch Employees from Database
-        System.out.println("\nEmployees from Database:");
+        System.out.println("\nEmployees from Database ");
         payrollSystem.fetchEmployeesFromDatabase();
 
-        /*// Remove an Employee
-        System.out.println("\nRemoving Employee with ID 2...");
+        // Remove an Employee
+        System.out.println("\nRemoving Employee with ID 2 .");
         payrollSystem.removeEmployee(2);
         payrollSystem.removeEmployeeFromDatabase(2);*/
 
         // Display Remaining Employees
-        System.out.println("\nRemaining Employees from ArrayList:");
+        System.out.println("Remaining Employees from ArrayList");
         payrollSystem.displayEmployees();
 
         System.out.println("\nRemaining Employees from Database:");
