@@ -157,7 +157,7 @@ class PayrollSystem {
 
     // Remove Employee from Database
     public void removeEmployeeFromDatabase(int id) {
-        String sql = "DELETE FROM Employees WHERE id = ?";
+        String sql = "DELETE FROM Employees WHERE id = 1";
 
         try (Connection conn = DatabaseManager.connect();
              PreparedStatement stmt = conn.prepareStatement(sql)) {
